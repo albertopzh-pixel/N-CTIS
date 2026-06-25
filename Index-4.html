@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html lang="es" prefix="og: https://ogp.me/ns#">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ── Primary SEO ── -->
+  <title>NØCTIS — La oscuridad también tiene estilo.</title>
+  <meta name="description" content="NØCTIS — Fundas premium con diseños anime glow, minimal dark y personalizadas. Protección extrema, estética única. Enviamos a todo Argentina." />
+  <meta name="keywords" content="fundas personalizadas, fundas anime, fundas premium, fundas glow, fundas Argentina, NØCTIS, fundas iPhone, fundas Samsung" />
+  <meta name="author" content="NØCTIS" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://noctis.com.ar/" />
+
+  <!-- ── Theme & App ── -->
+  <meta name="theme-color" content="#000000" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="NØCTIS" />
+
+  <!-- ── Open Graph ── -->
+  <meta property="og:type"        content="website" />
+  <meta property="og:url"         content="https://noctis.com.ar/" />
+  <meta property="og:title"       content="NØCTIS — La oscuridad también tiene estilo." />
+  <meta property="og:description" content="Fundas premium con diseños anime glow, minimal dark y personalizadas. Protección extrema, estética única." />
+  <meta property="og:image"       content="https://noctis.com.ar/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height"content="630" />
+  <meta property="og:site_name"   content="NØCTIS" />
+  <meta property="og:locale"      content="es_AR" />
+
+  <!-- ── Twitter Card ── -->
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:site"        content="@noctis_ar" />
+  <meta name="twitter:creator"     content="@noctis_ar" />
+  <meta name="twitter:title"       content="NØCTIS — La oscuridad también tiene estilo." />
+  <meta name="twitter:description" content="Fundas premium con diseños anime glow, minimal dark y personalizadas. Protección extrema, estética única." />
+  <meta name="twitter:image"       content="https://noctis.com.ar/og-image.jpg" />
+
+  <!-- ── Favicon inline SVG ── -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%23000'/><text x='3' y='24' font-family='sans-serif' font-size='20' font-weight='900' fill='%238B5CF6'>N</text></svg>" />
+
+  <!-- ── Preconnect fonts ── -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- ── GSAP + ScrollTrigger (defer keeps render unblocked) ── -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+
+  <!-- ── Stylesheet ── -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- ── JSON-LD Structured Data ── -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://noctis.com.ar/#org",
+        "name": "NØCTIS",
+        "url": "https://noctis.com.ar",
+        "logo": "https://noctis.com.ar/og-image.jpg",
+        "sameAs": [
+          "https://www.instagram.com/noctis_ar",
+          "https://www.tiktok.com/@noctis_ar",
+          "https://discord.gg/noctis"
+        ],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "customer service",
+          "availableLanguage": "Spanish",
+          "areaServed": "AR"
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://noctis.com.ar/#website",
+        "url": "https://noctis.com.ar",
+        "name": "NØCTIS",
+        "description": "Fundas premium con diseños anime glow, minimal dark y personalizadas.",
+        "publisher": { "@id": "https://noctis.com.ar/#org" },
+        "inLanguage": "es-AR"
+      },
+      {
+        "@type": "Store",
+        "name": "NØCTIS",
+        "image": "https://noctis.com.ar/og-image.jpg",
+        "description": "Fundas premium personalizadas para iPhone, Samsung, Xiaomi y más.",
+        "priceRange": "$$",
+        "currenciesAccepted": "ARS",
+        "paymentAccepted": "Cash, Credit Card, Mercado Pago",
+        "areaServed": { "@type": "Country", "name": "Argentina" }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <!-- ═══════════════════════════════ LOADING SCREEN ═══════════════════════════════ -->
+<div id="loader" aria-hidden="true">
+  <div class="loader__inner">
+    <svg class="loader__logo" viewBox="0 0 160 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="NØCTIS">
+      <text x="0" y="28" font-family="Syne, sans-serif" font-size="30" font-weight="800" fill="#ffffff">NØCTIS</text>
+    </svg>
+    <div class="loader__bar"><div class="loader__fill"></div></div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════ SCROLL PROGRESS ═══════════════════════════════ -->
+<div id="scroll-progress" aria-hidden="true"></div>
+
+<!-- ═══════════════════════════════ CURSOR ═══════════════════════════════ -->
+<div id="cursor" aria-hidden="true"></div>
+<div id="cursor-follower" aria-hidden="true"></div>
+
+<!-- ═══════════════════════════════ ANNOUNCE BAR ═══════════════════════════════ -->
+<div class="announce-bar" id="announce-bar" role="alert">
+  🖤 Envío gratis en compras mayores a $15.000 — <a href="#colecciones">Ver colecciones</a>
+  <button class="announce-bar__close" aria-label="Cerrar aviso" id="announce-close">✕</button>
+</div>
+
+<!-- ═══════════════════════════════ NAV ═══════════════════════════════ -->
+<header id="nav" role="banner">
+  <nav class="nav__container" aria-label="Navegación principal">
+    <a href="#hero" class="nav__logo" aria-label="NØCTIS inicio">NØCTIS</a>
+    <ul class="nav__links" role="list">
+      <li><a href="#colecciones">Colecciones</a></li>
+      <li><a href="#personaliza">Personaliza</a></li>
+      <li><a href="#nosotros">Nosotros</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+    <a href="#colecciones" class="nav__cta" aria-label="Ver tienda">
+      <span>Tienda</span>
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+    </a>
+    <button class="nav__burger" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobile-menu">
+      <span></span><span></span>
+    </button>
+  </nav>
+  <!-- Mobile menu -->
+  <div class="mobile-menu" id="mobile-menu" role="dialog" aria-label="Menú móvil" hidden>
+    <ul role="list">
+      <li><a href="#colecciones">Colecciones</a></li>
+      <li><a href="#personaliza">Personaliza</a></li>
+      <li><a href="#nosotros">Nosotros</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+      <li><a href="#colecciones" class="btn btn--primary">Ver Tienda</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+  <!-- ═══════════════════════════════ HERO ═══════════════════════════════ -->
+  <section id="hero" class="hero" aria-labelledby="hero-title">
+    <canvas id="particles-canvas" aria-hidden="true"></canvas>
+
+    <!-- Ambient glow orbs -->
+    <div class="hero__orb hero__orb--1" aria-hidden="true"></div>
+    <div class="hero__orb hero__orb--2" aria-hidden="true"></div>
+
+    <div class="hero__content">
+      <div class="hero__text">
+        <span class="hero__eyebrow reveal-up">Nueva Colección</span>
+        <h1 id="hero-title" class="hero__title reveal-up">
+          La oscuridad<br/>
+          también tiene<br/>
+          <em class="hero__title-accent">estilo.</em>
+        </h1>
+        <p class="hero__sub reveal-up">
+          Fundas premium que combinan diseño,<br/>
+          protección y una estética única.
+        </p>
+        <div class="hero__actions reveal-up">
+          <a href="#colecciones" class="btn btn--primary magnetic">Explorar Colección</a>
+          <a href="#personaliza" class="btn btn--ghost magnetic">Diseñá la tuya</a>
+        </div>
+      </div>
+
+      <div class="hero__visual reveal-scale" aria-hidden="true">
+        <div class="hero__mockup-wrap">
+          <div class="hero__glow-ring"></div>
+          <div class="hero__phone">
+            <div class="hero__phone-screen">
+              <div class="hero__phone-art">
+                <!-- Anime-style abstract art -->
+                <div class="art__bg"></div>
+                <div class="art__figure"></div>
+                <div class="art__kanji">天才</div>
+                <div class="art__particles">
+                  <span></span><span></span><span></span><span></span><span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hero__floating-chip hero__floating-chip--1">
+            <span class="chip__label">Glow Edition</span>
+          </div>
+          <div class="hero__floating-chip hero__floating-chip--2">
+            <span class="chip__label">Premium</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Stats bar -->
+    <div class="hero__stats reveal-up" role="region" aria-label="Estadísticas">
+      <div class="hero__stat">
+        <span class="stat__num" data-target="10">0</span><span class="stat__unit">K+</span>
+        <span class="stat__label">Clientes felices</span>
+      </div>
+      <div class="hero__stat-divider" aria-hidden="true"></div>
+      <div class="hero__stat">
+        <span class="stat__num" data-target="25">0</span><span class="stat__unit">K+</span>
+        <span class="stat__label">Fundas vendidas</span>
+      </div>
+      <div class="hero__stat-divider" aria-hidden="true"></div>
+      <div class="hero__stat">
+        <span class="stat__num" data-target="49">0</span><span class="stat__unit">★</span>
+        <span class="stat__label">Calificación</span>
+      </div>
+      <div class="hero__stat-divider" aria-hidden="true"></div>
+      <div class="hero__stat">
+        <span class="stat__num stat__num--text">24/7</span>
+        <span class="stat__label">Atención al cliente</span>
+      </div>
+    </div>
+
+    <!-- Scroll hint -->
+    <div class="hero__scroll-hint" aria-label="Deslizá para explorar">
+      <div class="scroll-dot"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ MARQUEE STRIP ═══════════════════════════════ -->
+  <div class="marquee-strip" aria-hidden="true">
+    <div class="marquee-strip__inner">
+      <span class="marquee-strip__item"><span class="marquee-strip__dot"></span>Diseño Premium</span>
+      <span class="marquee-strip__item marquee-strip__item--highlight"><span class="marquee-strip__dot"></span>Anime Glow Collection</span>
+      <span class="marquee-strip__item"><span class="marquee-strip__dot"></span>Envíos a todo Argentina</span>
+      <span class="marquee-strip__item"><span class="marquee-strip__dot"></span>Impresión UV 4K</span>
+      <span class="marquee-strip__item marquee-strip__item--highlight"><span class="marquee-strip__dot"></span>Personalizadas 100%</span>
+      <span class="marquee-strip__item"><span class="marquee-strip__dot"></span>Minimal Dark Edition</span>
+      <span class="marquee-strip__item"><span class="marquee-strip__dot"></span>Comunidad NØCTIS</span>
+      <span class="marquee-strip__item marquee-strip__item--highlight"><span class="marquee-strip__dot"></span>Exclusivas Limitadas</span>
+      <span class="marquee-strip__item"><span class="marquee-strip__dot"></span>PC + TPU Dual Layer</span>
+      <span class="marquee-strip__item"><span class="marquee-strip__dot"></span>Diseño Premium</span>
+      <span class="marquee-strip__item marquee-strip__item--highlight"><span class="marquee-strip__dot"></span>Anime Glow Collection</span>
+      <span class="marquee-strip__item"><span class="marquee-strip__dot"></span>Envíos a todo Argentina</span>
+      <span class="marquee-strip__item"><span class="marquee-strip__dot"></span>Impresión UV 4K</span>
+      <span class="marquee-strip__item marquee-strip__item--highlight"><span class="marquee-strip__dot"></span>Personalizadas 100%</span>
+      <span class="marquee-strip__item"><span class="marquee-strip__dot"></span>Minimal Dark Edition</span>
+      <span class="marquee-strip__item"><span class="marquee-strip__dot"></span>Comunidad NØCTIS</span>
+      <span class="marquee-strip__item marquee-strip__item--highlight"><span class="marquee-strip__dot"></span>Exclusivas Limitadas</span>
+      <span class="marquee-strip__item"><span class="marquee-strip__dot"></span>PC + TPU Dual Layer</span>
+    </div>
+  </div>
+  <!-- ═══════════════════════════════ BRANDS ═══════════════════════════════ -->
+<section id="marcas" class="section brands" aria-labelledby="brands-title">
+  <div class="container">
+    <div class="section__header reveal-up">
+      <span class="section__eyebrow">Compatibilidad Total</span>
+      <h2 id="brands-title" class="section__title">Tu modelo. Tu estilo.</h2>
+      <p class="section__sub">Diseñamos para los mejores.</p>
+    </div>
+
+    <div class="brands__grid" role="list">
+      <!-- iPhone -->
+      <article class="brand-card reveal-up" role="listitem">
+        <div class="brand-card__inner">
+          <div class="brand-card__icon">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.7 9.05 7.4c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.39-1.32 2.76-2.53 3.99zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/></svg>
+          </div>
+          <h3 class="brand-card__name">iPhone</h3>
+          <p class="brand-card__models">iPhone 13 — 16 Pro Max</p>
+          <div class="brand-card__mockup" aria-hidden="true">
+            <div class="mini-phone mini-phone--1"></div>
+            <div class="mini-phone mini-phone--2"></div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Samsung -->
+      <article class="brand-card reveal-up" role="listitem">
+        <div class="brand-card__inner">
+          <div class="brand-card__icon">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19.08 0H4.92A4.92 4.92 0 000 4.92v14.16A4.92 4.92 0 004.92 24h14.16A4.92 4.92 0 0024 19.08V4.92A4.92 4.92 0 0019.08 0zm-6.05 18.13c-2.96 0-4.95-2.1-4.95-4.65 0-.23.23-.42.5-.42h.98c.27 0 .46.19.46.42 0 1.69 1.2 2.92 3 2.92 1.74 0 2.81-1 2.81-2.5 0-1.34-.69-2.04-2.58-2.58l-.81-.23c-2.27-.62-3.38-1.88-3.38-3.73 0-2.23 1.77-3.73 4.42-3.73 2.73 0 4.57 1.61 4.57 4.03 0 .23-.19.42-.46.42h-.96c-.27 0-.5-.19-.5-.42 0-1.5-1.07-2.38-2.65-2.38s-2.5.88-2.5 2.08c0 1.15.65 1.81 2.23 2.27l.85.23c2.35.62 3.69 1.85 3.69 3.85 0 2.42-1.88 4.42-4.72 4.42z"/></svg>
+          </div>
+          <h3 class="brand-card__name">Samsung</h3>
+          <p class="brand-card__models">Galaxy S21 — S25 Ultra</p>
+          <div class="brand-card__mockup" aria-hidden="true">
+            <div class="mini-phone mini-phone--3"></div>
+            <div class="mini-phone mini-phone--4"></div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Xiaomi -->
+      <article class="brand-card reveal-up" role="listitem">
+        <div class="brand-card__inner">
+          <div class="brand-card__icon">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 2.182c5.423 0 9.818 4.395 9.818 9.818S17.423 21.818 12 21.818 2.182 17.423 2.182 12 6.577 2.182 12 2.182zm-2.4 4.8v10.036h2.4V12h2.4v5.018h2.4V7.018H14.4v4.982H12V7.018H9.6v-.036z"/></svg>
+          </div>
+          <h3 class="brand-card__name">Xiaomi</h3>
+          <p class="brand-card__models">Redmi — Xiaomi 14</p>
+          <div class="brand-card__mockup" aria-hidden="true">
+            <div class="mini-phone mini-phone--5"></div>
+            <div class="mini-phone mini-phone--6"></div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Motorola -->
+      <article class="brand-card reveal-up" role="listitem">
+        <div class="brand-card__inner">
+          <div class="brand-card__icon">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12s5.37 12 12 12 12-5.37 12-12S18.63 0 12 0zm0 3c4.88 0 8.9 3.61 9.75 8.33l-2.33.44C18.74 8.02 15.63 5.5 12 5.5c-3.65 0-6.76 2.55-7.43 6.05L2.24 11.1C3.11 6.58 7.12 3 12 3zm0 18c-4.88 0-8.9-3.61-9.75-8.33l2.33-.44C5.26 15.98 8.37 18.5 12 18.5c3.65 0 6.76-2.55 7.43-6.05l2.33.45C20.89 17.42 16.88 21 12 21zm0-7.5c-1.93 0-3.5-1.57-3.5-3.5S10.07 6.5 12 6.5s3.5 1.57 3.5 3.5-1.57 3.5-3.5 3.5z"/></svg>
+          </div>
+          <h3 class="brand-card__name">Motorola</h3>
+          <p class="brand-card__models">Moto G — Edge Series</p>
+          <div class="brand-card__mockup" aria-hidden="true">
+            <div class="mini-phone mini-phone--1"></div>
+            <div class="mini-phone mini-phone--3"></div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Tecno -->
+      <article class="brand-card reveal-up" role="listitem">
+        <div class="brand-card__inner">
+          <div class="brand-card__icon">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 12h8M12 8v8" stroke="#000" stroke-width="2"/></svg>
+          </div>
+          <h3 class="brand-card__name">Tecno</h3>
+          <p class="brand-card__models">Camon — Spark Series</p>
+          <div class="brand-card__mockup" aria-hidden="true">
+            <div class="mini-phone mini-phone--4"></div>
+            <div class="mini-phone mini-phone--6"></div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Infinix -->
+      <article class="brand-card reveal-up" role="listitem">
+        <div class="brand-card__inner">
+          <div class="brand-card__icon">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+          </div>
+          <h3 class="brand-card__name">Infinix</h3>
+          <p class="brand-card__models">Note — Zero Series</p>
+          <div class="brand-card__mockup" aria-hidden="true">
+            <div class="mini-phone mini-phone--2"></div>
+            <div class="mini-phone mini-phone--5"></div>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <div class="brands__cta reveal-up">
+      <a href="#colecciones" class="btn btn--outline magnetic">Ver todos los modelos →</a>
+    </div>
+  </div>
+</section>
+<!-- ═══════════════════════════════ SHOWCASE ═══════════════════════════════ -->
+<section id="showcase" class="section showcase" aria-labelledby="showcase-title">
+  <div class="container showcase__container">
+    <div class="showcase__left reveal-up">
+      <span class="section__eyebrow">Diseñadas para destacar</span>
+      <h2 id="showcase-title" class="section__title">Protección superior.<br/>Estilo incomparable.</h2>
+
+      <ul class="showcase__features" role="list">
+        <li class="showcase__feature">
+          <div class="feature__icon" aria-hidden="true">
+            <svg viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="8" stroke="#8B5CF6" stroke-width="1.5"/><path d="M7 10l2 2 4-4" stroke="#A855F7" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <div>
+            <h3 class="feature__name">Materiales premium</h3>
+            <p class="feature__desc">Resistentes y duraderos.</p>
+          </div>
+        </li>
+        <li class="showcase__feature">
+          <div class="feature__icon" aria-hidden="true">
+            <svg viewBox="0 0 20 20" fill="none"><path d="M10 2L4 5v5c0 4 2.8 7.7 6 9 3.2-1.3 6-5 6-9V5L10 2z" stroke="#8B5CF6" stroke-width="1.5" stroke-linejoin="round"/></svg>
+          </div>
+          <div>
+            <h3 class="feature__name">Protección extrema</h3>
+            <p class="feature__desc">Tu teléfono siempre seguro.</p>
+          </div>
+        </li>
+        <li class="showcase__feature">
+          <div class="feature__icon" aria-hidden="true">
+            <svg viewBox="0 0 20 20" fill="none"><path d="M10 3v14M3 10h14" stroke="#8B5CF6" stroke-width="1.5" stroke-linecap="round"/><circle cx="10" cy="10" r="6" stroke="#A855F7" stroke-width="1.5" stroke-dasharray="3 2"/></svg>
+          </div>
+          <div>
+            <h3 class="feature__name">Acabado Glow</h3>
+            <p class="feature__desc">Brilla en la oscuridad.</p>
+          </div>
+        </li>
+        <li class="showcase__feature">
+          <div class="feature__icon" aria-hidden="true">
+            <svg viewBox="0 0 20 20" fill="none"><rect x="5" y="3" width="10" height="14" rx="2" stroke="#8B5CF6" stroke-width="1.5"/><path d="M8 6h4M8 9h4M8 12h2" stroke="#A855F7" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <div>
+            <h3 class="feature__name">Ajuste perfecto</h3>
+            <p class="feature__desc">Diseñadas para cada modelo.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="showcase__center reveal-scale" aria-hidden="true">
+      <div class="showcase__phone-wrap">
+        <div class="showcase__glow-ring"></div>
+        <div class="showcase__phone">
+          <div class="showcase__screen">
+            <div class="showcase__art">
+              <div class="showcase-anime-eye"></div>
+              <div class="showcase-kanji">天才</div>
+              <div class="showcase-ring"></div>
+            </div>
+          </div>
+        </div>
+        <div class="showcase__rotate-label">Hover para rotar</div>
+      </div>
+    </div>
+
+    <div class="showcase__right reveal-up">
+      <div class="showcase__specs">
+        <div class="spec">
+          <span class="spec__label">Material</span>
+          <span class="spec__value">PC + TPU Dual Layer</span>
+        </div>
+        <div class="spec">
+          <span class="spec__label">Impresión</span>
+          <span class="spec__value">UV Premium 4K</span>
+        </div>
+        <div class="spec">
+          <span class="spec__label">Glow</span>
+          <span class="spec__value">Fosforescente activo</span>
+        </div>
+        <div class="spec">
+          <span class="spec__label">Durabilidad</span>
+          <span class="spec__value">+2 años garantizados</span>
+        </div>
+      </div>
+      <a href="#personaliza" class="btn btn--primary magnetic">Diseñar la mía</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════ PROCESO ═══════════════════════════════ -->
+<section id="personaliza" class="section process" aria-labelledby="process-title">
+  <div class="container">
+    <div class="section__header reveal-up">
+      <span class="section__eyebrow">Diseñá Tu Funda</span>
+      <h2 id="process-title" class="section__title">Tu idea, hecha realidad.</h2>
+    </div>
+
+    <div class="process__timeline" role="list">
+      <article class="process__step reveal-up" role="listitem">
+        <div class="process__num" aria-hidden="true">01</div>
+        <div class="process__icon" aria-hidden="true">
+          <svg viewBox="0 0 32 32" fill="none"><rect x="4" y="4" width="24" height="24" rx="4" stroke="#8B5CF6" stroke-width="1.5"/><path d="M16 10v12M10 16h12" stroke="#A855F7" stroke-width="2" stroke-linecap="round"/></svg>
+        </div>
+        <h3 class="process__name">Subí tu imagen</h3>
+        <p class="process__desc">Elegí la imagen que querés en tu funda.</p>
+      </article>
+
+      <div class="process__connector" aria-hidden="true"><div class="connector__line"></div></div>
+
+      <article class="process__step reveal-up" role="listitem">
+        <div class="process__num" aria-hidden="true">02</div>
+        <div class="process__icon" aria-hidden="true">
+          <svg viewBox="0 0 32 32" fill="none"><path d="M8 24l4-4 12-12-4-4L8 16l-4 4 4 4z" stroke="#8B5CF6" stroke-width="1.5" stroke-linejoin="round"/></svg>
+        </div>
+        <h3 class="process__name">Diseñamos</h3>
+        <p class="process__desc">Nuestro equipo crea el diseño perfecto.</p>
+      </article>
+
+      <div class="process__connector" aria-hidden="true"><div class="connector__line"></div></div>
+
+      <article class="process__step reveal-up" role="listitem">
+        <div class="process__num" aria-hidden="true">03</div>
+        <div class="process__icon" aria-hidden="true">
+          <svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="11" stroke="#8B5CF6" stroke-width="1.5"/><path d="M11 16l3 3 7-7" stroke="#A855F7" stroke-width="2" stroke-linecap="round"/></svg>
+        </div>
+        <h3 class="process__name">Aprobás</h3>
+        <p class="process__desc">Revisás y aprobás el resultado.</p>
+      </article>
+
+      <div class="process__connector" aria-hidden="true"><div class="connector__line"></div></div>
+
+      <article class="process__step reveal-up" role="listitem">
+        <div class="process__num" aria-hidden="true">04</div>
+        <div class="process__icon" aria-hidden="true">
+          <svg viewBox="0 0 32 32" fill="none"><rect x="6" y="8" width="20" height="16" rx="2" stroke="#8B5CF6" stroke-width="1.5"/><path d="M12 8V6a4 4 0 018 0v2" stroke="#A855F7" stroke-width="1.5"/></svg>
+        </div>
+        <h3 class="process__name">Fabricamos</h3>
+        <p class="process__desc">Impresión premium con la mejor calidad.</p>
+      </article>
+
+      <div class="process__connector" aria-hidden="true"><div class="connector__line"></div></div>
+
+      <article class="process__step reveal-up" role="listitem">
+        <div class="process__num" aria-hidden="true">05</div>
+        <div class="process__icon" aria-hidden="true">
+          <svg viewBox="0 0 32 32" fill="none"><path d="M6 16h14l-3-3m3 3l-3 3" stroke="#8B5CF6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M22 10v12" stroke="#A855F7" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </div>
+        <h3 class="process__name">Enviamos</h3>
+        <p class="process__desc">Recibís tu funda en la puerta de tu casa.</p>
+      </article>
+    </div>
+
+    <div class="process__cta reveal-up">
+      <a href="#" class="btn btn--primary btn--lg magnetic">Diseñar mi funda ahora →</a>
+    </div>
+  </div>
+</section>
+<!-- ═══════════════════════════════ GALERÍA SOCIAL ═══════════════════════════════ -->
+<section id="comunidad" class="section gallery" aria-labelledby="gallery-title">
+  <div class="container">
+    <div class="section__header reveal-up">
+      <span class="section__eyebrow">Comunidad NØCTIS</span>
+      <h2 id="gallery-title" class="section__title">Hechas por nosotros.<br/>Usadas por vos.</h2>
+    </div>
+
+    <div class="gallery__masonry" aria-label="Galería de la comunidad" role="list">
+      <!-- 12 gallery items with abstract dark art using CSS -->
+      <div class="gallery__item gallery__item--tall reveal-up" role="listitem" aria-label="Funda anime purple">
+        <div class="gallery__art gallery__art--1"></div>
+        <div class="gallery__overlay"><span>@lautii.rx</span></div>
+      </div>
+      <div class="gallery__item reveal-up" role="listitem" aria-label="Funda minimal dark">
+        <div class="gallery__art gallery__art--2"></div>
+        <div class="gallery__overlay"><span>@sofii.mendez</span></div>
+      </div>
+      <div class="gallery__item reveal-up" role="listitem" aria-label="Funda glow violet">
+        <div class="gallery__art gallery__art--3"></div>
+        <div class="gallery__overlay"><span>@nicolas.dp</span></div>
+      </div>
+      <div class="gallery__item gallery__item--wide reveal-up" role="listitem" aria-label="Funda exclusiva">
+        <div class="gallery__art gallery__art--4"></div>
+        <div class="gallery__overlay"><span>@agus.lucero</span></div>
+      </div>
+      <div class="gallery__item reveal-up" role="listitem" aria-label="Funda anime kanji">
+        <div class="gallery__art gallery__art--5"></div>
+        <div class="gallery__overlay"><span>@vale.cosmic</span></div>
+      </div>
+      <div class="gallery__item gallery__item--tall reveal-up" role="listitem" aria-label="Funda dark art">
+        <div class="gallery__art gallery__art--6"></div>
+        <div class="gallery__overlay"><span>@mateo.nk</span></div>
+      </div>
+      <div class="gallery__item reveal-up" role="listitem" aria-label="Funda custom art">
+        <div class="gallery__art gallery__art--7"></div>
+        <div class="gallery__overlay"><span>@feli.moon</span></div>
+      </div>
+      <div class="gallery__item reveal-up" role="listitem" aria-label="Funda purple glow">
+        <div class="gallery__art gallery__art--8"></div>
+        <div class="gallery__overlay"><span>@juli.edge</span></div>
+      </div>
+    </div>
+
+    <div class="gallery__cta reveal-up">
+      <a href="#" class="btn btn--outline magnetic">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+        Ver más en Instagram
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════ MERCH ═══════════════════════════════ -->
+<section id="merch" class="section merch" aria-labelledby="merch-title">
+  <div class="container">
+    <div class="section__header reveal-up">
+      <span class="section__eyebrow">Merch NØCTIS</span>
+      <h2 id="merch-title" class="section__title">Llevá el estilo NØCTIS<br/>más allá.</h2>
+    </div>
+
+    <div class="merch__grid" role="list">
+      <article class="merch-card reveal-up" role="listitem">
+        <div class="merch-card__visual merch-card__visual--hoodie" aria-hidden="true">
+          <div class="merch__shape"></div>
+        </div>
+        <div class="merch-card__info">
+          <span class="merch-card__cat">Hoodie</span>
+          <h3 class="merch-card__name">NØCTIS Shadow</h3>
+          <span class="merch-card__price">$ 58.999</span>
+        </div>
+      </article>
+
+      <article class="merch-card reveal-up" role="listitem">
+        <div class="merch-card__visual merch-card__visual--jogger" aria-hidden="true">
+          <div class="merch__shape"></div>
+        </div>
+        <div class="merch-card__info">
+          <span class="merch-card__cat">Jogger</span>
+          <h3 class="merch-card__name">NØCTIS Tech</h3>
+          <span class="merch-card__price">$ 49.999</span>
+        </div>
+      </article>
+
+      <article class="merch-card reveal-up" role="listitem">
+        <div class="merch-card__visual merch-card__visual--tshirt" aria-hidden="true">
+          <div class="merch__shape"></div>
+        </div>
+        <div class="merch-card__info">
+          <span class="merch-card__cat">T-Shirt</span>
+          <h3 class="merch-card__name">NØCTIS Glow</h3>
+          <span class="merch-card__price">$ 18.999</span>
+        </div>
+      </article>
+
+      <article class="merch-card reveal-up" role="listitem">
+        <div class="merch-card__visual merch-card__visual--termo" aria-hidden="true">
+          <div class="merch__shape"></div>
+        </div>
+        <div class="merch-card__info">
+          <span class="merch-card__cat">Botella</span>
+          <h3 class="merch-card__name">NØCTIS Steel</h3>
+          <span class="merch-card__price">$ 24.999</span>
+        </div>
+      </article>
+
+      <article class="merch-card reveal-up" role="listitem">
+        <div class="merch-card__visual merch-card__visual--cap" aria-hidden="true">
+          <div class="merch__shape"></div>
+        </div>
+        <div class="merch-card__info">
+          <span class="merch-card__cat">Gorra</span>
+          <h3 class="merch-card__name">NØCTIS Dark</h3>
+          <span class="merch-card__price">$ 14.999</span>
+        </div>
+      </article>
+    </div>
+
+    <div class="merch__cta reveal-up">
+      <a href="#" class="btn btn--outline magnetic">Ver todo el merch</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════ TRUST BADGES ═══════════════════════════════ -->
+<div class="trust-badges" aria-label="Por qué elegirnos">
+  <div class="trust-badges__inner container">
+    <div class="trust-badge reveal-up">
+      <div class="trust-badge__icon">
+        <svg viewBox="0 0 24 24" stroke-width="1.5"><path d="M12 2L4 5v5c0 4.5 3.3 8.7 8 9.9C17.7 18.7 21 14.5 21 10V5L12 2z"/></svg>
+      </div>
+      <div class="trust-badge__text">
+        <strong>Protección garantizada</strong>
+        <span>Resistencia comprobada</span>
+      </div>
+    </div>
+    <div class="trust-badge reveal-up">
+      <div class="trust-badge__icon">
+        <svg viewBox="0 0 24 24" stroke-width="1.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </div>
+      <div class="trust-badge__text">
+        <strong>Envío express</strong>
+        <span>Todo el país en 48-72hs</span>
+      </div>
+    </div>
+    <div class="trust-badge reveal-up">
+      <div class="trust-badge__icon">
+        <svg viewBox="0 0 24 24" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M9 12l2 2 4-4"/></svg>
+      </div>
+      <div class="trust-badge__text">
+        <strong>Calidad premium</strong>
+        <span>Impresión UV 4K profesional</span>
+      </div>
+    </div>
+    <div class="trust-badge reveal-up">
+      <div class="trust-badge__icon">
+        <svg viewBox="0 0 24 24" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9,22 9,12 15,12 15,22"/></svg>
+      </div>
+      <div class="trust-badge__text">
+        <strong>Hecho en Argentina</strong>
+        <span>Con orgullo nacional 🇦🇷</span>
+      </div>
+    </div>
+    <div class="trust-badge reveal-up">
+      <div class="trust-badge__icon">
+        <svg viewBox="0 0 24 24" stroke-width="1.5"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+      </div>
+      <div class="trust-badge__text">
+        <strong>Soporte 24/7</strong>
+        <span>Siempre disponibles para vos</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════ FILOSOFÍA ═══════════════════════════════ -->
+<section id="nosotros" class="section philosophy" aria-labelledby="philosophy-title">
+  <div class="philosophy__bg" aria-hidden="true">
+    <div class="philosophy__ring philosophy__ring--1"></div>
+    <div class="philosophy__ring philosophy__ring--2"></div>
+    <div class="philosophy__figure" aria-hidden="true"></div>
+  </div>
+  <div class="container">
+    <div class="philosophy__content reveal-up">
+      <span class="section__eyebrow">Nuestra Esencia</span>
+      <h2 id="philosophy-title" class="philosophy__title">
+        No somos una marca.<br/>
+        <em>Somos un movimiento.</em>
+      </h2>
+      <p class="philosophy__body">
+        NØCTIS nació de la idea de que todos tenemos algo único que mostrar. Diseñamos productos que te representan, que hablan por vos, que te acompañan en tu día a día.
+      </p>
+      <p class="philosophy__body">
+        No seguimos tendencias.<br/>
+        Creamos nuestra propia oscuridad.
+      </p>
+      <blockquote class="philosophy__quote">
+        "NØCTIS nació para quienes crean su propio camino."
+      </blockquote>
+    </div>
+  </div>
+</section>
+    <!-- ═══════════════════════════════ TESTIMONIOS ═══════════════════════════════ -->
+    <section id="testimonios" class="section testimonials" aria-labelledby="testimonials-title">
+      <div class="container">
+        <div class="section__header reveal-up">
+          <span class="section__eyebrow">Lo que dicen nuestros clientes</span>
+          <h2 id="testimonials-title" class="section__title">Experiencias reales.</h2>
+        </div>
+
+        <div class="testimonials__track-wrap" aria-live="polite">
+          <div class="testimonials__track" role="list">
+            <!-- Testimonials duplicated for infinite scroll -->
+            <article class="testimonial-card" role="listitem">
+              <div class="testimonial-card__stars" aria-label="5 estrellas">★★★★★</div>
+              <p class="testimonial-card__text">"La calidad es increíble. El glow se ve espectacular en la oscuridad. La mejor funda que tuve."</p>
+              <div class="testimonial-card__author">
+                <div class="author__avatar" aria-hidden="true"><span>L</span></div>
+                <span class="author__handle">@lautii.rx</span>
+              </div>
+            </article>
+            <article class="testimonial-card" role="listitem">
+              <div class="testimonial-card__stars" aria-label="5 estrellas">★★★★★</div>
+              <p class="testimonial-card__text">"Mi funda llegó rápido y el diseño superó mis expectativas. Todo me preguntan dónde la conseguí."</p>
+              <div class="testimonial-card__author">
+                <div class="author__avatar" aria-hidden="true"><span>S</span></div>
+                <span class="author__handle">@sofii.mendez</span>
+              </div>
+            </article>
+            <article class="testimonial-card" role="listitem">
+              <div class="testimonial-card__stars" aria-label="5 estrellas">★★★★★</div>
+              <p class="testimonial-card__text">"Todos me preguntan dónde compré mi funda. Es otra cosa. Literalmente arte en tu teléfono."</p>
+              <div class="testimonial-card__author">
+                <div class="author__avatar" aria-hidden="true"><span>A</span></div>
+                <span class="author__handle">@agus.lucero</span>
+              </div>
+            </article>
+            <article class="testimonial-card" role="listitem">
+              <div class="testimonial-card__stars" aria-label="5 estrellas">★★★★★</div>
+              <p class="testimonial-card__text">"Pedí una personalizada con mi personaje favorito de anime y quedó perfecta. Envío rapidísimo."</p>
+              <div class="testimonial-card__author">
+                <div class="author__avatar" aria-hidden="true"><span>V</span></div>
+                <span class="author__handle">@vale.cosmic</span>
+              </div>
+            </article>
+            <article class="testimonial-card" role="listitem">
+              <div class="testimonial-card__stars" aria-label="5 estrellas">★★★★★</div>
+              <p class="testimonial-card__text">"La funda protege increíble y se ve premium. No me la saco ni para dormir jaja. Total nivel."</p>
+              <div class="testimonial-card__author">
+                <div class="author__avatar" aria-hidden="true"><span>M</span></div>
+                <span class="author__handle">@mateo.nk</span>
+              </div>
+            </article>
+            <!-- Duplicate for infinite effect -->
+            <article class="testimonial-card" role="listitem" aria-hidden="true">
+              <div class="testimonial-card__stars">★★★★★</div>
+              <p class="testimonial-card__text">"La calidad es increíble. El glow se ve espectacular en la oscuridad. La mejor funda que tuve."</p>
+              <div class="testimonial-card__author">
+                <div class="author__avatar"><span>L</span></div>
+                <span class="author__handle">@lautii.rx</span>
+              </div>
+            </article>
+            <article class="testimonial-card" role="listitem" aria-hidden="true">
+              <div class="testimonial-card__stars">★★★★★</div>
+              <p class="testimonial-card__text">"Mi funda llegó rápido y el diseño superó mis expectativas. Todo me preguntan dónde la conseguí."</p>
+              <div class="testimonial-card__author">
+                <div class="author__avatar"><span>S</span></div>
+                <span class="author__handle">@sofii.mendez</span>
+              </div>
+            </article>
+            <article class="testimonial-card" role="listitem" aria-hidden="true">
+              <div class="testimonial-card__stars">★★★★★</div>
+              <p class="testimonial-card__text">"Todos me preguntan dónde compré mi funda. Es otra cosa. Literalmente arte en tu teléfono."</p>
+              <div class="testimonial-card__author">
+                <div class="author__avatar"><span>A</span></div>
+                <span class="author__handle">@agus.lucero</span>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="testimonials__cta reveal-up">
+          <a href="#" class="btn btn--outline magnetic">Ver más testimonios →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════ FAQ ═══════════════════════════════ -->
+    <section id="faq" class="section faq" aria-labelledby="faq-title">
+      <div class="container">
+        <div class="section__header reveal-up">
+          <span class="section__eyebrow">Preguntas Frecuentes</span>
+          <h2 id="faq-title" class="section__title">¿Tenés dudas?<br/>Nosotros las resolvemos.</h2>
+        </div>
+
+        <div class="faq__list reveal-up" role="list">
+
+          <div class="faq__item" role="listitem">
+            <button class="faq__question" aria-expanded="false">
+              ¿Cuánto tarda en llegar mi pedido?
+              <span class="faq__icon" aria-hidden="true">
+                <svg viewBox="0 0 10 10" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="1" x2="5" y2="9"/><line x1="1" y1="5" x2="9" y2="5"/></svg>
+              </span>
+            </button>
+            <div class="faq__answer">
+              Los pedidos de fundas estándar se procesan en 24-48hs hábiles. El envío a CABA demora entre 1 y 2 días, y al interior del país entre 3 y 5 días hábiles por correo expreso. Las personalizadas tienen un tiempo adicional de diseño y aprobación de 24-48hs.
+            </div>
+          </div>
+
+          <div class="faq__item" role="listitem">
+            <button class="faq__question" aria-expanded="false">
+              ¿Cómo funciona la personalización?
+              <span class="faq__icon" aria-hidden="true">
+                <svg viewBox="0 0 10 10" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="1" x2="5" y2="9"/><line x1="1" y1="5" x2="9" y2="5"/></svg>
+              </span>
+            </button>
+            <div class="faq__answer">
+              Es simple: nos enviás tu imagen o idea por WhatsApp o por el formulario de la web, nuestro equipo de diseño crea una propuesta, vos la aprobás (o pedís cambios), y luego fabricamos e imprimimos tu funda única. Todo el proceso tarda entre 3 y 5 días hábiles desde la aprobación del diseño.
+            </div>
+          </div>
+
+          <div class="faq__item" role="listitem">
+            <button class="faq__question" aria-expanded="false">
+              ¿Qué materiales usan para las fundas?
+              <span class="faq__icon" aria-hidden="true">
+                <svg viewBox="0 0 10 10" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="1" x2="5" y2="9"/><line x1="1" y1="5" x2="9" y2="5"/></svg>
+              </span>
+            </button>
+            <div class="faq__answer">
+              Nuestras fundas están fabricadas con PC + TPU de doble capa, lo que ofrece rigidez en la parte posterior y flexibilidad en los bordes para absorber golpes. La impresión es por tecnología UV Premium 4K, que garantiza colores vivos, nitidez extrema y resistencia al rayado por más de 2 años.
+            </div>
+          </div>
+
+          <div class="faq__item" role="listitem">
+            <button class="faq__question" aria-expanded="false">
+              ¿Hacen cambios o devoluciones?
+              <span class="faq__icon" aria-hidden="true">
+                <svg viewBox="0 0 10 10" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="1" x2="5" y2="9"/><line x1="1" y1="5" x2="9" y2="5"/></svg>
+              </span>
+            </button>
+            <div class="faq__answer">
+              Si el producto llegó defectuoso o con errores de impresión que son responsabilidad nuestra, lo reponemos sin costo. Las fundas personalizadas no tienen devolución por cambio de opinión, ya que son producidas a demanda. Para estándar del catálogo, aceptamos cambios dentro de los 10 días hábiles del recibo, con el producto sin uso.
+            </div>
+          </div>
+
+          <div class="faq__item" role="listitem">
+            <button class="faq__question" aria-expanded="false">
+              ¿Tienen tienda física?
+              <span class="faq__icon" aria-hidden="true">
+                <svg viewBox="0 0 10 10" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="1" x2="5" y2="9"/><line x1="1" y1="5" x2="9" y2="5"/></svg>
+              </span>
+            </button>
+            <div class="faq__answer">
+              Por ahora somos 100% digitales. Toda nuestra operación es online, lo que nos permite mantener precios justos y calidad premium sin los costos de un local. Operamos desde Buenos Aires, Argentina, y enviamos a todo el país.
+            </div>
+          </div>
+
+          <div class="faq__item" role="listitem">
+            <button class="faq__question" aria-expanded="false">
+              ¿Con qué modelos de celular son compatibles?
+              <span class="faq__icon" aria-hidden="true">
+                <svg viewBox="0 0 10 10" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="1" x2="5" y2="9"/><line x1="1" y1="5" x2="9" y2="5"/></svg>
+              </span>
+            </button>
+            <div class="faq__answer">
+              Trabajamos con iPhone 13, 14, 15 y 16 (todos los modelos), Samsung Galaxy S21 hasta S25 Ultra, Xiaomi Redmi Note y serie 14, Motorola Edge y Moto G, Tecno Camon e Infinix Note. Si tu modelo no está en la lista, escribinos y lo chequeamos.
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════ NEWSLETTER ═══════════════════════════════ -->
+    <section id="newsletter" class="newsletter" aria-labelledby="newsletter-title">
+      <div class="newsletter__bg" aria-hidden="true"></div>
+      <div class="container">
+        <div class="newsletter__card reveal-up">
+          <span class="newsletter__eyebrow">Comunidad exclusiva</span>
+          <h2 id="newsletter-title" class="newsletter__title">Sé el primero en saber.</h2>
+          <p class="newsletter__sub">
+            Drops limitados, descuentos exclusivos y diseños antes que nadie.<br/>
+            Solo para miembros NØCTIS.
+          </p>
+          <form class="newsletter__form" id="newsletter-form" novalidate>
+            <input
+              type="email"
+              class="newsletter__input"
+              placeholder="tu@email.com"
+              aria-label="Tu email"
+              required
+              id="newsletter-email"
+            />
+            <button type="submit" class="btn btn--primary magnetic">Unirme</button>
+          </form>
+          <div class="newsletter__success" id="newsletter-success" role="status" aria-live="polite">
+            <div class="newsletter__success-icon">
+              <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+            </div>
+            <p style="font-size:0.9rem;font-weight:600;">¡Bienvenido a la oscuridad! 🖤</p>
+            <p style="font-size:0.8rem;color:rgba(255,255,255,0.5);">Vas a recibir nuestros drops exclusivos primero.</p>
+          </div>
+          <p class="newsletter__note">Sin spam. Cancelá cuando quieras. 100% NØCTIS.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════ CTA FINAL ═══════════════════════════════ -->
+    <section id="cta-final" class="section cta-final" aria-labelledby="cta-title">
+      <div class="cta-final__bg" aria-hidden="true">
+        <div class="cta-final__orb"></div>
+        <canvas id="cta-particles" aria-hidden="true"></canvas>
+      </div>
+      <div class="container cta-final__content reveal-up">
+        <div class="cta-final__logo" aria-hidden="true">NØCTIS</div>
+        <h2 id="cta-title" class="cta-final__title">
+          No llevas una funda.<br/>
+          Llevas una <em class="accent">identidad.</em>
+        </h2>
+        <a href="#colecciones" class="btn btn--primary btn--xl magnetic">Explorar Colección</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ═══════════════════════════════ FOOTER ═══════════════════════════════ -->
+  <footer id="contacto" class="footer" role="contentinfo">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a href="#hero" class="footer__logo" aria-label="NØCTIS inicio">NØCTIS</a>
+        <p class="footer__tagline">Brilla en la oscuridad.</p>
+        <div class="footer__social" aria-label="Redes sociales">
+          <a href="#" aria-label="Instagram NØCTIS">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+          </a>
+          <a href="#" aria-label="TikTok NØCTIS">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V9.03a8.16 8.16 0 004.77 1.52V7.12a4.85 4.85 0 01-1-.43z"/></svg>
+          </a>
+          <a href="#" aria-label="Discord NØCTIS">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.317 4.37a19.791 19.791 0 00-4.885-1.515.074.074 0 00-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 00-5.487 0 12.64 12.64 0 00-.617-1.25.077.077 0 00-.079-.037A19.736 19.736 0 003.677 4.37a.07.07 0 00-.032.027C.533 9.046-.32 13.58.099 18.057c.002.022.015.043.03.053a19.9 19.9 0 005.993 3.03.078.078 0 00.084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 00-.041-.106 13.107 13.107 0 01-1.872-.892.077.077 0 01-.008-.128 10.2 10.2 0 00.372-.292.074.074 0 01.077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 01.078.01c.12.098.246.198.373.292a.077.077 0 01-.006.127 12.299 12.299 0 01-1.873.892.077.077 0 00-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 00.084.028 19.839 19.839 0 006.002-3.03.077.077 0 00.032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 00-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg>
+          </a>
+          <a href="#" aria-label="YouTube NØCTIS">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22.54 6.42a2.78 2.78 0 00-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 00-1.95 1.96A29 29 0 001 12a29 29 0 00.46 5.58A2.78 2.78 0 003.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 001.95-1.95A29 29 0 0023 12a29 29 0 00-.46-5.58zM9.75 15.02V8.98L15.5 12l-5.75 3.02z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer__col">
+        <h3 class="footer__col-title">Productos</h3>
+        <ul role="list">
+          <li><a href="#">Fundas</a></li>
+          <li><a href="#">Merch</a></li>
+          <li><a href="#">Accesorios</a></li>
+          <li><a href="#personaliza">Personalizadas</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h3 class="footer__col-title">Información</h3>
+        <ul role="list">
+          <li><a href="#nosotros">Sobre Nosotros</a></li>
+          <li><a href="#">Envíos</a></li>
+          <li><a href="#">Cambios y Devoluciones</a></li>
+          <li><a href="#">Preguntas Frecuentes</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h3 class="footer__col-title">Soporte</h3>
+        <ul role="list">
+          <li><a href="#contacto">Contacto</a></li>
+          <li><a href="#">Seguimiento de Pedido</a></li>
+          <li><a href="#">Términos y Condiciones</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <span>© 2024 NØCTIS. Todos los derechos reservados.</span>
+      <span>Hecho con oscuridad en Argentina 🇦🇷</span>
+    </div>
+  </footer>
+
+  <!-- ═══════════════════════════════ CART TOAST ═══════════════════════════════ -->
+  <div class="cart-toast" id="cart-toast" role="alert" aria-live="polite" aria-atomic="true">
+    <div class="cart-toast__check">
+      <svg viewBox="0 0 24 24" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+    </div>
+    <span class="cart-toast__msg">¡Agregado al carrito!</span>
+    <button class="cart-toast__undo" id="cart-toast-undo">Deshacer</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
